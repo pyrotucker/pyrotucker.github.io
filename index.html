@@ -1,0 +1,1472 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天娱mv免费入_高清原创MV在线观看_天娱音乐视频社区</title>
+<meta name="description" content="天娱MV官方网站，专注高清原创音乐视频内容，汇集华语MV首播、创作者社区与正版音乐影像，提供免费入站观看与专业品质的音画体验。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1c2b'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%2337e0c0' stroke-width='3'/%3E%3Cpath d='M27 23l17 9-17 9z' fill='%23ff8a5c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ty-bg:#0d1c2b;
+  --ty-bg-soft:#122b3f;
+  --ty-panel:#152f45;
+  --ty-line:rgba(140,190,220,.18);
+  --ty-ink:#eaf4fb;
+  --ty-ink-soft:#a8c3d4;
+  --ty-mint:#37e0c0;
+  --ty-amber:#ff8a5c;
+  --ty-violet:#8e7bff;
+  --ty-radius:16px;
+  --ty-wrap:1180px;
+  --ty-sticky:112px;
+  --ty-font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--ty-sticky)}
+body{
+  font-family:var(--ty-font);
+  background:
+    radial-gradient(1100px 520px at 82% -8%,rgba(55,224,192,.14),transparent 60%),
+    radial-gradient(900px 460px at 6% 4%,rgba(142,123,255,.16),transparent 62%),
+    var(--ty-bg);
+  color:var(--ty-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+ul,ol{list-style:none}
+.ty-skip{position:absolute;left:-9999px;top:0}
+.ty-skip:focus{left:12px;top:12px;z-index:200;background:var(--ty-mint);color:#06202a;padding:8px 14px;border-radius:8px}
+
+/* ---------- sticky 公告 + 页头 ---------- */
+.ty-sticky-shell{position:sticky;top:0;z-index:120}
+.ty-announce{
+  background:linear-gradient(90deg,#0f3c4a,#173a58 46%,#1d2f52);
+  border-bottom:1px solid var(--ty-line);
+}
+.ty-announce-in{
+  max-width:var(--ty-wrap);margin:0 auto;padding:9px 20px;
+  display:flex;align-items:center;gap:14px;font-size:13.5px;color:#d6ecf5;
+}
+.ty-announce-tag{
+  flex:0 0 auto;background:var(--ty-amber);color:#2a0f05;
+  font-weight:700;font-size:12px;letter-spacing:.06em;
+  padding:2px 9px;border-radius:999px;
+}
+.ty-announce-text{flex:1 1 auto;min-width:0}
+.ty-announce-text b{color:#fff;font-weight:600}
+.ty-announce-link{
+  flex:0 0 auto;font-size:13px;color:var(--ty-mint);border-bottom:1px dashed rgba(55,224,192,.5);
+  white-space:nowrap;
+}
+.ty-announce-link:hover{color:#fff;border-color:#fff}
+
+.ty-header{
+  background:rgba(13,28,43,.9);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--ty-line);
+}
+.ty-header-in{
+  max-width:var(--ty-wrap);margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:22px;
+}
+.ty-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.ty-brand-mark{
+  width:40px;height:40px;border-radius:12px;flex:0 0 auto;
+  background:linear-gradient(145deg,#12405a,#0c2336);
+  border:1px solid rgba(55,224,192,.45);
+  display:grid;place-items:center;
+  box-shadow:0 0 0 4px rgba(55,224,192,.07);
+}
+.ty-brand-mark svg{width:22px;height:22px}
+.ty-brand-name{font-size:19px;font-weight:800;letter-spacing:.03em;line-height:1.15}
+.ty-brand-name small{display:block;font-size:11px;font-weight:500;letter-spacing:.22em;color:var(--ty-mint);text-transform:uppercase}
+.ty-nav{flex:1 1 auto;min-width:0}
+.ty-nav-list{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:14.5px}
+.ty-nav-list a{
+  display:inline-block;padding:6px 2px;color:var(--ty-ink-soft);
+  border-bottom:2px solid transparent;transition:color .18s,border-color .18s;
+}
+.ty-nav-list a:hover,.ty-nav-list a:focus-visible{color:#fff;border-color:var(--ty-mint)}
+.ty-head-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.ty-search{position:relative;display:flex;align-items:center}
+.ty-search input{
+  width:186px;background:rgba(255,255,255,.06);border:1px solid var(--ty-line);
+  border-radius:999px;padding:8px 36px 8px 14px;font-size:13.5px;color:#fff;
+  transition:border-color .18s,width .2s;
+}
+.ty-search input::placeholder{color:#7f9cb0}
+.ty-search input:focus{outline:none;border-color:var(--ty-mint);width:216px}
+.ty-search button{
+  position:absolute;right:6px;top:50%;transform:translateY(-50%);
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:var(--ty-mint);
+}
+.ty-search button:hover{background:rgba(55,224,192,.16)}
+.ty-search-tip{
+  position:absolute;top:calc(100% + 8px);right:0;width:238px;
+  background:#10283b;border:1px solid var(--ty-line);border-radius:12px;
+  padding:8px 12px;font-size:12.5px;color:var(--ty-ink-soft);
+  box-shadow:0 16px 34px rgba(0,0,0,.42);display:none;
+}
+.ty-search-tip.is-on{display:block}
+.ty-search-tip strong{color:var(--ty-mint)}
+.ty-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;
+  transition:transform .16s,box-shadow .16s,background .16s,border-color .16s;
+  border:1px solid transparent;white-space:nowrap;
+}
+.ty-btn:hover{transform:translateY(-1px)}
+.ty-btn-primary{background:linear-gradient(120deg,var(--ty-mint),#5cf0d6);color:#062a2a;box-shadow:0 8px 22px rgba(55,224,192,.24)}
+.ty-btn-ghost{border-color:rgba(168,195,212,.4);color:#dcecf5}
+.ty-btn-ghost:hover{border-color:var(--ty-mint);color:#fff}
+.ty-btn-amber{background:var(--ty-amber);color:#2b1105;box-shadow:0 8px 22px rgba(255,138,92,.2)}
+.ty-burger{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--ty-line);place-items:center}
+.ty-burger span{display:block;width:18px;height:2px;background:#dcecf5;border-radius:2px;position:relative}
+.ty-burger span::before,.ty-burger span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:#dcecf5;border-radius:2px}
+.ty-burger span::before{top:-6px}
+.ty-burger span::after{top:6px}
+.ty-mobile-nav{display:none;border-top:1px solid var(--ty-line);background:rgba(12,26,40,.98)}
+.ty-mobile-nav.is-open{display:block}
+.ty-mobile-nav ul{max-width:var(--ty-wrap);margin:0 auto;padding:10px 20px 16px;display:grid;gap:2px}
+.ty-mobile-nav a{display:block;padding:10px 4px;border-bottom:1px dashed rgba(140,190,220,.14);font-size:15px;color:#d6e9f3}
+.ty-mobile-nav a:last-child{border-bottom:none}
+
+/* ---------- 通用 ---------- */
+.ty-wrap{max-width:var(--ty-wrap);margin:0 auto;padding:0 20px}
+.ty-section{padding:58px 0 10px}
+.ty-section-head{margin-bottom:26px}
+.ty-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ty-mint);margin-bottom:10px;font-weight:600;
+}
+.ty-eyebrow::before{content:"";width:22px;height:2px;background:var(--ty-mint);display:inline-block}
+.ty-h2{font-size:clamp(24px,3vw,33px);line-height:1.3;font-weight:800;letter-spacing:.01em}
+.ty-h2 em{font-style:normal;color:var(--ty-mint)}
+.ty-lead{color:var(--ty-ink-soft);font-size:15px;max-width:760px;margin-top:10px}
+.ty-h3{font-size:18.5px;font-weight:700;line-height:1.45;margin-bottom:8px}
+.ty-card{
+  background:linear-gradient(170deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  border:1px solid var(--ty-line);border-radius:var(--ty-radius);
+  transition:border-color .2s,transform .2s,box-shadow .2s;
+}
+.ty-card:hover{border-color:rgba(55,224,192,.42);transform:translateY(-3px);box-shadow:0 18px 38px rgba(0,0,0,.3)}
+.ty-tag{
+  display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;
+  background:rgba(55,224,192,.12);border:1px solid rgba(55,224,192,.3);
+  color:#8ff0dc;margin:0 6px 6px 0;white-space:nowrap;
+}
+.ty-tag--amber{background:rgba(255,138,92,.12);border-color:rgba(255,138,92,.34);color:#ffc0a6}
+.ty-tag--violet{background:rgba(142,123,255,.14);border-color:rgba(142,123,255,.36);color:#c6bcff}
+.ty-meta{font-size:12.5px;color:#8aa8bc;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.ty-thumb{border-radius:12px;overflow:hidden;position:relative;background:#0a1a28;border:1px solid var(--ty-line)}
+.ty-thumb img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.ty-thumb .ty-play{
+  position:absolute;right:10px;bottom:10px;width:34px;height:34px;border-radius:50%;
+  background:rgba(6,20,30,.66);border:1px solid rgba(255,255,255,.28);display:grid;place-items:center;
+  backdrop-filter:blur(3px);
+}
+.ty-thumb .ty-play svg{width:14px;height:14px}
+.ty-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.ty-mini-btn{
+  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:6px 12px;
+  border-radius:999px;border:1px solid var(--ty-line);color:#bad4e2;background:rgba(255,255,255,.03);
+  transition:color .16s,border-color .16s,background .16s;
+}
+.ty-mini-btn:hover{color:#fff;border-color:rgba(55,224,192,.55)}
+.ty-mini-btn.is-active{color:#062a2a;background:var(--ty-mint);border-color:var(--ty-mint);font-weight:700}
+.ty-mini-btn .ty-ic{width:14px;height:14px;display:inline-block}
+.ty-grid{display:grid;gap:20px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.ty-muted{color:var(--ty-ink-soft)}
+.ty-note{
+  margin-top:16px;font-size:13px;color:#91aec0;background:rgba(55,224,192,.06);
+  border:1px dashed rgba(55,224,192,.3);border-radius:12px;padding:10px 14px;
+}
+.ty-note b{color:#b8f2e6}
+
+/* ---------- HERO ---------- */
+.ty-hero{padding:46px 0 8px}
+.ty-hero-grid{
+  display:grid;grid-template-columns:5fr 5fr;gap:34px;align-items:center;
+}
+.ty-hero-copy .ty-h1{
+  font-size:clamp(29px,4.2vw,46px);line-height:1.22;font-weight:900;letter-spacing:-.01em;
+  margin:12px 0 14px;
+}
+.ty-h1 em{font-style:normal;background:linear-gradient(100deg,var(--ty-mint),var(--ty-violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ty-hero-sub{color:#bed6e4;font-size:15.5px;max-width:600px}
+.ty-hero-intro{
+  margin-top:18px;font-size:14.5px;color:var(--ty-ink-soft);max-width:600px;
+  border-left:3px solid rgba(55,224,192,.55);padding-left:14px;
+}
+.ty-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px;max-width:560px}
+.ty-stat{
+  border:1px solid var(--ty-line);border-radius:14px;padding:12px 14px;
+  background:rgba(255,255,255,.035);
+}
+.ty-stat b{display:block;font-size:22px;font-weight:800;letter-spacing:.01em;color:#fff;line-height:1.2}
+.ty-stat span{font-size:12px;color:#8aa8bc}
+.ty-hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.ty-hero-visual{position:relative}
+.ty-hero-frame{
+  position:relative;border-radius:22px;overflow:hidden;border:1px solid rgba(140,190,220,.28);
+  box-shadow:0 30px 70px rgba(0,0,0,.46);
+}
+.ty-hero-frame img{width:100%;aspect-ratio:16/11;object-fit:cover}
+.ty-hero-badge{
+  position:absolute;left:16px;top:16px;display:flex;gap:8px;align-items:center;
+  background:rgba(6,20,30,.62);border:1px solid rgba(255,255,255,.22);border-radius:999px;
+  padding:5px 12px;font-size:12px;backdrop-filter:blur(4px);color:#e7f6fb;
+}
+.ty-dot{width:7px;height:7px;border-radius:50%;background:var(--ty-amber);box-shadow:0 0 0 4px rgba(255,138,92,.2)}
+.ty-hero-caption{
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  margin-top:12px;font-size:12.5px;color:#8aa8bc;
+}
+
+/* ---------- 焦点内容 ---------- */
+.ty-focus-grid{display:grid;grid-template-columns:6fr 4fr;gap:24px}
+.ty-focus-main{overflow:hidden}
+.ty-focus-main .ty-thumb{border-radius:0;border:none;border-bottom:1px solid var(--ty-line)}
+.ty-focus-main-body{padding:20px 22px 22px}
+.ty-focus-side{display:grid;gap:16px;align-content:start}
+.ty-side-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:12px;align-items:center}
+.ty-side-item .ty-thumb img{aspect-ratio:4/3;height:100%}
+.ty-side-item h3{font-size:14.5px;font-weight:700;line-height:1.4;margin-bottom:4px}
+.ty-side-item p{font-size:12.5px;color:#8aa8bc}
+
+/* ---------- 视频列表 ---------- */
+.ty-video-list{display:grid;gap:14px;margin-top:6px}
+.ty-video-row{
+  display:grid;grid-template-columns:210px minmax(0,1fr);gap:18px;
+  padding:16px;align-items:start;
+}
+.ty-video-row .ty-thumb img{aspect-ratio:16/9}
+.ty-video-row h3{font-size:16.5px;font-weight:700;line-height:1.45;margin-bottom:6px}
+.ty-video-row p{font-size:13.5px;color:var(--ty-ink-soft)}
+.ty-video-row .ty-data{font-size:12.5px;color:#8aa8bc;margin-top:8px;display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---------- 专题 ---------- */
+.ty-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.ty-topic{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.ty-topic .ty-thumb{border:none;border-radius:0;border-bottom:1px solid var(--ty-line)}
+.ty-topic .ty-thumb img{aspect-ratio:16/9}
+.ty-topic-body{padding:16px 18px 20px;display:flex;flex-direction:column;flex:1 1 auto}
+.ty-topic-body h3{font-size:16.5px;font-weight:700;margin-bottom:6px}
+.ty-topic-status{
+  font-size:11.5px;font-weight:700;letter-spacing:.05em;color:#0b2a22;
+  background:var(--ty-mint);border-radius:6px;padding:1px 7px;display:inline-block;margin-bottom:8px;
+}
+.ty-topic-status--soft{background:rgba(255,138,92,.9);color:#2b1105}
+.ty-topic ol{margin-top:10px;display:grid;gap:7px;flex:1 1 auto;align-content:start}
+.ty-topic ol li{font-size:13px;color:#b6cfdd;padding-left:16px;position:relative}
+.ty-topic ol li::before{content:"›";position:absolute;left:2px;color:var(--ty-mint);font-weight:800}
+.ty-topic-more{margin-top:14px;font-size:12.5px;color:var(--ty-mint)}
+
+/* ---------- 作者矩阵 ---------- */
+.ty-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.ty-author{display:flex;gap:14px;padding:18px;align-items:flex-start}
+.ty-avatar{
+  width:52px;height:52px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;
+  font-weight:800;font-size:19px;color:#06202a;border:2px solid rgba(255,255,255,.24);
+}
+.ty-author-body{min-width:0}
+.ty-author-name{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:15.5px;font-weight:700}
+.ty-author-name .ty-mini-btn{padding:2px 9px;font-size:11.5px}
+.ty-author-body p{font-size:13px;color:var(--ty-ink-soft);margin-top:6px}
+.ty-author-stats{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:#8aa8bc;margin-top:8px}
+
+/* ---------- 榜单 / 评价 ---------- */
+.ty-board-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.ty-board{padding:20px 22px}
+.ty-board h3{font-size:16px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.ty-board h3 .ty-tag{margin:0}
+.ty-rank{display:grid;gap:9px}
+.ty-rank li{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:10px;align-items:center;font-size:13.5px}
+.ty-rank .rk{font-weight:800;color:#6f93a9;font-size:13px}
+.ty-rank .rk--top{color:var(--ty-amber)}
+.ty-rank .rk-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ty-rank .rk-num{font-size:12px;color:#8aa8bc}
+.ty-review-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ty-review{padding:16px 18px;border-radius:14px}
+.ty-review-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.ty-review-head b{font-size:13.5px}
+.ty-review-head span{font-size:12px;color:#8aa8bc}
+.ty-stars{color:var(--ty-amber);font-size:12.5px;letter-spacing:.1em}
+.ty-review p{font-size:13px;color:#b6cfdd}
+.ty-review-key{display:flex;justify-content:space-between;gap:10px;font-size:11.5px;color:#7e9db0;margin-top:9px;border-top:1px dashed rgba(140,190,220,.18);padding-top:8px}
+
+/* ---------- 故事 / 解析 ---------- */
+.ty-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.ty-article{padding:22px 24px}
+.ty-article h3{font-size:17px;margin-bottom:10px}
+.ty-article p{font-size:13.8px;color:#c2d8e4;margin-bottom:10px}
+.ty-article p:last-child{margin-bottom:0}
+.ty-article strong{color:#fff}
+.ty-deep{padding:26px 26px 22px}
+.ty-deep h3{margin-top:20px}
+.ty-deep h3:first-child{margin-top:0}
+.ty-deep p{font-size:14px;color:#b9d2df;margin-bottom:10px}
+.ty-deep ul{margin:6px 0 12px;display:grid;gap:7px}
+.ty-deep li{font-size:13.5px;color:#b9d2df;padding-left:18px;position:relative}
+.ty-deep li::before{content:"◆";position:absolute;left:0;color:var(--ty-violet);font-size:10px;top:5px}
+.ty-quote{
+  border-left:3px solid var(--ty-amber);background:rgba(255,138,92,.07);
+  padding:12px 16px;border-radius:0 12px 12px 0;font-size:13.5px;color:#e7d6cc;margin:14px 0;
+}
+
+/* ---------- 合作 / 动态 / FAQ ---------- */
+.ty-partner-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.ty-partner{
+  border:1px solid var(--ty-line);border-radius:14px;padding:16px 14px;text-align:center;
+  background:rgba(255,255,255,.03);
+}
+.ty-partner b{display:block;font-size:14px;margin-bottom:4px}
+.ty-partner span{font-size:11.5px;color:#8aa8bc}
+.ty-news{display:grid;gap:12px}
+.ty-news li{display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;align-items:baseline;font-size:13.5px}
+.ty-news time{font-size:12px;color:var(--ty-mint);letter-spacing:.03em}
+.ty-news p{color:#b9d2df;min-width:0}
+.ty-faq{display:grid;gap:10px;margin-top:6px}
+.ty-faq details{
+  border:1px solid var(--ty-line);border-radius:12px;background:rgba(255,255,255,.03);
+  padding:0 16px;transition:border-color .18s;
+}
+.ty-faq details[open]{border-color:rgba(55,224,192,.45)}
+.ty-faq summary{
+  cursor:pointer;list-style:none;padding:13px 0;font-size:14.5px;font-weight:600;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.ty-faq summary::-webkit-details-marker{display:none}
+.ty-faq summary::after{content:"+";color:var(--ty-mint);font-size:19px;font-weight:400;line-height:1}
+.ty-faq details[open] summary::after{content:"–"}
+.ty-faq p{font-size:13.5px;color:#b6cfdd;padding:0 0 14px}
+
+/* ---------- 联系投稿 ---------- */
+.ty-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.ty-contact{padding:24px}
+.ty-contact p{font-size:13.5px;color:#b9d2df;margin-bottom:10px}
+.ty-contact .ty-actions{margin-top:6px}
+.ty-form{display:grid;gap:10px;margin-top:14px}
+.ty-form input,.ty-form textarea{
+  width:100%;background:rgba(255,255,255,.05);border:1px solid var(--ty-line);
+  border-radius:10px;padding:10px 12px;color:#fff;font-size:13.5px;font-family:inherit;
+}
+.ty-form input:focus,.ty-form textarea:focus{outline:none;border-color:var(--ty-mint)}
+.ty-form textarea{min-height:86px;resize:vertical}
+.ty-form button{justify-self:start}
+
+/* ---------- 页脚 ---------- */
+.ty-footer{
+  margin-top:56px;border-top:1px solid var(--ty-line);
+  background:linear-gradient(180deg,rgba(12,26,40,.5),rgba(8,18,28,.9));
+}
+.ty-footer-in{max-width:var(--ty-wrap);margin:0 auto;padding:40px 20px 26px}
+.ty-footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:26px}
+.ty-footer h4{font-size:13px;letter-spacing:.1em;color:#dfeef6;margin-bottom:12px;font-weight:700}
+.ty-footer ul{display:grid;gap:8px}
+.ty-footer ul a,.ty-footer ul li{font-size:12.8px;color:#8fb0c2;transition:color .16s}
+.ty-footer ul a:hover{color:var(--ty-mint)}
+.ty-footer-brand p{font-size:12.8px;color:#8fb0c2;max-width:320px}
+.ty-footer-mark{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.ty-footer-mark .ty-brand-mark{width:34px;height:34px;border-radius:10px}
+.ty-footer-mark b{font-size:15px;letter-spacing:.04em}
+.ty-footer-bottom{
+  margin-top:30px;padding-top:16px;border-top:1px dashed rgba(140,190,220,.2);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12px;color:#7e9db0;
+}
+.ty-footer-bottom .ty-legal{display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---------- 回顶 / Toast / Modal ---------- */
+.ty-top{
+  position:fixed;right:20px;bottom:24px;width:44px;height:44px;border-radius:50%;
+  background:rgba(18,43,63,.92);border:1px solid rgba(55,224,192,.45);color:var(--ty-mint);
+  display:grid;place-items:center;z-index:110;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;
+  box-shadow:0 12px 26px rgba(0,0,0,.4);
+}
+.ty-top.is-on{opacity:1;pointer-events:auto}
+.ty-top:hover{transform:translateY(-2px)}
+.ty-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,16px);
+  background:#0f2b3d;border:1px solid rgba(55,224,192,.5);color:#eaf6fb;
+  padding:10px 20px;border-radius:999px;font-size:13.5px;z-index:160;
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;
+  box-shadow:0 16px 34px rgba(0,0,0,.45);max-width:calc(100vw - 40px);text-align:center;
+}
+.ty-toast.is-on{opacity:1;transform:translate(-50%,0)}
+.ty-modal{
+  position:fixed;inset:0;z-index:170;display:none;align-items:center;justify-content:center;padding:20px;
+  background:rgba(4,12,20,.62);backdrop-filter:blur(4px);
+}
+.ty-modal.is-on{display:flex}
+.ty-modal-card{
+  width:min(520px,100%);background:#0f2637;border:1px solid rgba(55,224,192,.3);
+  border-radius:18px;padding:24px 24px 22px;box-shadow:0 30px 70px rgba(0,0,0,.55);
+  max-height:84vh;overflow:auto;
+}
+.ty-modal-card h3{font-size:18px;margin-bottom:8px}
+.ty-modal-card p{font-size:13.5px;color:#b6cfdd;margin-bottom:10px}
+.ty-modal-close{
+  float:right;width:30px;height:30px;border-radius:50%;border:1px solid var(--ty-line);
+  display:grid;place-items:center;color:#a8c3d4;margin:-6px -6px 0 10px;
+}
+.ty-modal-close:hover{color:#fff;border-color:var(--ty-mint)}
+.ty-modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .ty-hero-grid{grid-template-columns:1fr;gap:26px}
+  .ty-focus-grid,.ty-story-grid,.ty-contact-grid,.ty-board-grid{grid-template-columns:1fr}
+  .ty-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ty-footer-top{grid-template-columns:1fr 1fr}
+  .ty-search input{width:150px}
+}
+@media (max-width:860px){
+  .ty-nav{display:none}
+  .ty-burger{display:grid}
+  .ty-head-tools .ty-btn{display:none}
+  .ty-search input{width:140px}
+}
+@media (max-width:720px){
+  :root{--ty-sticky:101px}
+  .ty-announce-in{padding:8px 16px;font-size:12.5px;gap:9px;flex-wrap:wrap}
+  .ty-announce-link{display:none}
+  .ty-header-in{padding:10px 16px;gap:12px}
+  .ty-brand-name{font-size:17px}
+  .ty-hero{padding-top:30px}
+  .ty-hero-stats{grid-template-columns:1fr 1fr}
+  .ty-video-row{grid-template-columns:1fr}
+  .ty-topic-grid,.ty-author-grid,.ty-review-grid,.ty-partner-grid{grid-template-columns:1fr}
+  .ty-hero-intro{font-size:13.5px}
+  .ty-footer-top{grid-template-columns:1fr}
+  .ty-section{padding-top:42px}
+  .ty-news li{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+<a class="ty-skip" href="#main">跳到主要内容</a>
+
+<div class="ty-sticky-shell">
+  <div class="ty-announce" role="region" aria-label="站内公告">
+    <div class="ty-announce-in">
+      <span class="ty-announce-tag">官方发布</span>
+      <p class="ty-announce-text">天娱MV 十一月编曲现场专题上线，新增 <b>《天台录音棚》</b> 等 12 支高清正版 MV；创作者投稿通道同步开放，支持 <b>4K 画质</b>上传与分轨下载。</p>
+      <a class="ty-announce-link" href="#ty-updates">查看更新日志 →</a>
+    </div>
+  </div>
+
+  <header class="ty-header" id="ty-top-anchor">
+    <div class="ty-header-in">
+      <a class="ty-brand" href="#ty-hero" aria-label="天娱MV 官方网站首页">
+        <span class="ty-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="20" fill="none" stroke="#37e0c0" stroke-width="3.5"/><path d="M27 22l18 10-18 10z" fill="#ff8a5c"/></svg>
+        </span>
+        <span class="ty-brand-name">天娱MV<small>Tianyu MV</small></span>
+      </a>
+
+      <nav class="ty-nav" aria-label="主导航">
+        <ul class="ty-nav-list">
+          <li><a href="#ty-focus">焦点首播</a></li>
+          <li><a href="#ty-videos">高清MV</a></li>
+          <li><a href="#ty-topics">专题企划</a></li>
+          <li><a href="#ty-authors">创作者</a></li>
+          <li><a href="#ty-board">榜单与口碑</a></li>
+          <li><a href="#ty-story">品牌故事</a></li>
+          <li><a href="#ty-faq">帮助</a></li>
+        </ul>
+      </nav>
+
+      <div class="ty-head-tools">
+        <div class="ty-search">
+          <label for="ty-search-input" class="ty-skip">搜索天娱MV内容</label>
+          <input id="ty-search-input" type="search" placeholder="搜索MV / 歌手 / 专题" autocomplete="off">
+          <button type="button" id="ty-search-btn" aria-label="搜索">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg>
+          </button>
+          <div class="ty-search-tip" id="ty-search-tip" aria-live="polite"></div>
+        </div>
+        <button class="ty-btn ty-btn-ghost" type="button" data-ty-open="ty-modal-upload">投稿入口</button>
+        <button class="ty-burger" type="button" id="ty-burger" aria-label="展开导航" aria-expanded="false" aria-controls="ty-mobile-nav"><span></span></button>
+      </div>
+    </div>
+    <div class="ty-mobile-nav" id="ty-mobile-nav">
+      <ul>
+        <li><a href="#ty-focus">焦点首播</a></li>
+        <li><a href="#ty-videos">高清MV</a></li>
+        <li><a href="#ty-topics">专题企划</a></li>
+        <li><a href="#ty-authors">创作者</a></li>
+        <li><a href="#ty-board">榜单与口碑</a></li>
+        <li><a href="#ty-story">品牌故事</a></li>
+        <li><a href="#ty-faq">帮助</a></li>
+        <li><a href="#ty-updates">企业动态</a></li>
+        <li><a href="#ty-contact">联系与投稿</a></li>
+      </ul>
+    </div>
+  </header>
+</div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="ty-hero" id="ty-hero">
+    <div class="ty-wrap ty-hero-grid">
+      <div class="ty-hero-copy">
+        <span class="ty-eyebrow">天娱MV 官方网站 · 音乐影像社区</span>
+        <h1 class="ty-h1">天娱MV免费入，<em>高清原创音乐视频</em>在线观看</h1>
+        <p class="ty-hero-sub">天娱MV是面向华语原创音乐影像的品牌官网与内容社区，以高清正版曲库为底座，为歌手、导演与音乐爱好者提供首发、展映与交流的一站式平台。</p>
+        <p class="ty-hero-intro">作为持续运营十余年的音乐视频企业，天娱MV深耕原创 MV 制作与分发，搭建从拍摄、母带修复到多端高清播放的完整内容生态。平台坚持正版授权、用户至上，累计上线原创音乐影像超过 4 万支，并与 300 余家唱片厂牌、独立音乐人工作室建立长期合作，成为乐迷与创作者值得信赖的影像入口。</p>
+        <div class="ty-hero-stats">
+          <div class="ty-stat"><b><span data-ty-count="42800">42,800</span>+</b><span>原创高清 MV 存量</span></div>
+          <div class="ty-stat"><b><span data-ty-count="1260">1,260</span>+</b><span>入驻创作者与乐队</span></div>
+          <div class="ty-stat"><b><span data-ty-count="985">985</span>万</b><span>月度播放与互动</span></div>
+        </div>
+        <div class="ty-hero-btns">
+          <a class="ty-btn ty-btn-primary" href="#ty-videos">免费入站观看</a>
+          <a class="ty-btn ty-btn-ghost" href="#ty-authors">认识创作者</a>
+          <a class="ty-btn ty-btn-ghost" href="#ty-topics">浏览专题企划</a>
+        </div>
+      </div>
+      <div class="ty-hero-visual">
+        <figure class="ty-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230b2033'/%3E%3Cstop offset='1' stop-color='%23163f5a'/%3E%3C/linearGradient%3E%3ClinearGradient id='beam' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%2337e0c0' stop-opacity='.85'/%3E%3Cstop offset='1' stop-color='%2337e0c0' stop-opacity='0'/%3E%3C/linearGradient%3E%3ClinearGradient id='warm' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff8a5c' stop-opacity='0'/%3E%3Cstop offset='.5' stop-color='%23ff8a5c' stop-opacity='.8'/%3E%3Cstop offset='1' stop-color='%23ff8a5c' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23sky)'/%3E%3Cpath d='M0 420 Q200 360 400 410 T800 380 L800 550 L0 550Z' fill='%230a1a27'/%3E%3Cpath d='M120 0 L300 0 L210 420 L40 420Z' fill='url(%23beam)' opacity='.28'/%3E%3Cpath d='M540 0 L700 0 L640 420 L470 420Z' fill='url(%23beam)' opacity='.2'/%3E%3Cpath d='M0 302 H800' stroke='url(%23warm)' stroke-width='3'/%3E%3Ccircle cx='400' cy='252' r='86' fill='none' stroke='%2337e0c0' stroke-width='3' opacity='.55'/%3E%3Ccircle cx='400' cy='252' r='54' fill='none' stroke='%23ff8a5c' stroke-width='2' opacity='.5'/%3E%3Cpath d='M385 222l44 30-44 30z' fill='%2337e0c0'/%3E%3Cg fill='%238e7bff' opacity='.5'%3E%3Crect x='120' y='440' width='36' height='70' rx='4'/%3E%3Crect x='170' y='425' width='36' height='85' rx='4'/%3E%3Crect x='220' y='450' width='36' height='60' rx='4'/%3E%3C/g%3E%3Cg fill='%2337e0c0' opacity='.32'%3E%3Ccircle cx='640' cy='120' r='6'/%3E%3Ccircle cx='680' cy='150' r='4'/%3E%3Ccircle cx='600' cy='90' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="天娱MV首屏主视觉：深蓝音乐厅舞台中央发光播放标志与音轨剪影" width="800" height="550">
+          <span class="ty-hero-badge"><span class="ty-dot"></span>官方首播 · 天台录音棚 Live</span>
+        </figure>
+        <div class="ty-hero-caption">
+          <span>本期主推：《天台录音棚》钢琴与合成器现场版</span>
+          <span>4K HDR · 立体声重制</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="ty-section" id="ty-focus">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Focus · 焦点首播</span>
+        <h2 class="ty-h2">本周<em>天娱MV</em>焦点企划与重点首发</h2>
+        <p class="ty-lead">编辑部与制作团队从每周上线的高清 MV 中挑选值得反复观看的作品，覆盖乐队现场、城市影像与独立音乐人新作，让优质原创内容被更多人看见。</p>
+      </div>
+
+      <div class="ty-focus-grid">
+        <article class="ty-card ty-focus-main">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23152f45'/%3E%3Cstop offset='1' stop-color='%230b1c2b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23g1)'/%3E%3Cg stroke='%2337e0c0' stroke-opacity='.65' stroke-width='2' fill='none'%3E%3Cpath d='M60 340 Q180 240 300 320 T560 300 T760 330'/%3E%3Cpath d='M60 300 Q190 200 320 290 T580 270 T760 290' stroke='%238e7bff' stroke-opacity='.5'/%3E%3C/g%3E%3Cg fill='%23ff8a5c'%3E%3Ccircle cx='180' cy='275' r='6'/%3E%3Ccircle cx='330' cy='300' r='5'/%3E%3Ccircle cx='585' cy='278' r='5'/%3E%3C/g%3E%3Crect x='300' y='150' width='200' height='120' rx='12' fill='%230c2336' stroke='%2337e0c0' stroke-opacity='.6'/%3E%3Cpath d='M380 190l48 25-48 25z' fill='%2337e0c0'/%3E%3C/svg%3E" alt="天娱MV焦点首播《天台录音棚》MV 缩略图，深色波形与播放标志" width="800" height="450">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="ty-focus-main-body">
+            <span class="ty-tag ty-tag--amber">官方首播</span>
+            <span class="ty-tag">现场录音</span>
+            <span class="ty-tag ty-tag--violet">4K 高清</span>
+            <h3 class="ty-h3">《天台录音棚》——把整座城市的晚风收进一支钢琴与合成器的现场</h3>
+            <p class="ty-muted">天娱MV制作团队跟随独立音乐人叶栖与键盘手阿禾登上老城区天台，在日落最后一小时完成一镜到底的现场拍摄。全片保留环境声与呼吸感，钢琴线条与合成器铺底同步推进，呈现一支属于城市夜晚的高清音乐影像。</p>
+            <div class="ty-meta">
+              <span>作者：叶栖 Yeatsi</span>
+              <span>播放 42.6 万</span>
+              <span>点赞 3.8 万</span>
+              <span>收藏 1.2 万</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>38,120</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-copy>复制链接</button>
+              <button class="ty-mini-btn" type="button" data-ty-open="ty-modal-report">反馈</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="ty-focus-side">
+          <article class="ty-card ty-side-item">
+            <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23122b3f'/%3E%3Cg fill='none' stroke='%23ff8a5c' stroke-width='2' opacity='.8'%3E%3Ccircle cx='200' cy='150' r='66'/%3E%3Ccircle cx='200' cy='150' r='44'/%3E%3C/g%3E%3Cpath d='M186 130l32 20-32 20z' fill='%23ff8a5c'/%3E%3C/svg%3E" alt="独立乐队新专辑同名MV《潮汐以北》缩略图，暖橙色同心圆构图" width="400" height="300"></div>
+            <div>
+              <h3>《潮汐以北》乐队现场版</h3>
+              <p>海风采样 + 后摇吉他，收录于专辑首发现场。</p>
+            </div>
+          </article>
+          <article class="ty-card ty-side-item">
+            <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%230f2334'/%3E%3Cg stroke='%238e7bff' stroke-width='3' opacity='.75' fill='none'%3E%3Cpath d='M40 220 L120 120 L200 200 L280 90 L360 180'/%3E%3C/g%3E%3Cg fill='%2337e0c0'%3E%3Ccircle cx='120' cy='120' r='5'/%3E%3Ccircle cx='200' cy='200' r='5'/%3E%3Ccircle cx='280' cy='90' r='5'/%3E%3C/g%3E%3C/svg%3E" alt="电子音乐人合成器即兴MV《夜航坐标》缩略图，紫色折线波形" width="400" height="300"></div>
+            <div>
+              <h3>《夜航坐标》合成器即兴</h3>
+              <p>一镜到底的暗房录制，低音铺底层次清晰。</p>
+            </div>
+          </article>
+          <article class="ty-card ty-side-item">
+            <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23152f45'/%3E%3Cg fill='%23eaf6fb' opacity='.8'%3E%3Crect x='70' y='90' width='260' height='14' rx='7'/%3E%3Crect x='70' y='130' width='190' height='14' rx='7'/%3E%3Crect x='70' y='170' width='220' height='14' rx='7'/%3E%3C/g%3E%3Cg fill='%2337e0c0'%3E%3Crect x='70' y='212' width='90' height='30' rx='15'/%3E%3C/g%3E%3C/svg%3E" alt="民谣歌手手写字幕MV《旧信》缩略图，浅色歌词条块构图" width="400" height="300"></div>
+            <div>
+              <h3>《旧信》手写字幕版</h3>
+              <p>以信纸质感呈现歌词，适合深夜安静循环。</p>
+            </div>
+          </article>
+          <p class="ty-note">焦点内容由<b>天娱MV编辑部</b>与创作者共同推荐，每周二、周五更新；重点首播作品均可免费入站观看高清版本。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 高清MV视频流 -->
+  <section class="ty-section" id="ty-videos">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Videos · 高清MV</span>
+        <h2 class="ty-h2">天娱MV<em>精品内容</em>：本周高清原创 MV 精选</h2>
+        <p class="ty-lead">按内容类型整理的本周视频流，包含现场、叙事、动画与城市影像四类方向。每条均标注创作者、播放与收藏数据，可直接在站内观看。</p>
+      </div>
+
+      <div class="ty-video-list">
+        <article class="ty-card ty-video-row">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230e2b3f'/%3E%3Cstop offset='1' stop-color='%23204a5f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v1)'/%3E%3Cpath d='M0 200 Q120 150 240 190 T480 170 L480 270 L0 270Z' fill='%230a1b27'/%3E%3Cg fill='%2337e0c0' opacity='.7'%3E%3Ccircle cx='240' cy='105' r='34' fill='none' stroke='%2337e0c0' stroke-width='3'/%3E%3Cpath d='M228 90l24 15-24 15z'/%3E%3C/g%3E%3C/svg%3E" alt="叙事MV《潮汐以北》主视觉，海面弧线与播放圆环" width="480" height="270">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div>
+            <span class="ty-tag">叙事影像</span><span class="ty-tag ty-tag--violet">乐队</span>
+            <h3>《潮汐以北》：把一场海边告别拍成七分钟的长镜头</h3>
+            <p>影片以清晨退潮为叙事起点，乐队四人从栈桥走向沙滩，镜头跟随主唱穿过雾中的渔船与晾晒的渔网。导演刻意保留现场海浪与风声，让情绪在真实环境里自然累积，是本月天娱MV社区讨论度较高的一支原创作品。</p>
+            <div class="ty-data">
+              <span>作者：潮汐以北乐队</span><span>播放 31.4 万</span><span>点赞 2.6 万</span><span>收藏 8,900</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>26,430</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-comment>查看评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-video-row">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23142536'/%3E%3Cg stroke='%238e7bff' stroke-width='2' fill='none' opacity='.85'%3E%3Cpath d='M30 200 L110 120 L190 175 L270 80 L350 150 L450 90'/%3E%3C/g%3E%3Cg fill='%23ff8a5c'%3E%3Ccircle cx='110' cy='120' r='5'/%3E%3Ccircle cx='270' cy='80' r='5'/%3E%3Ccircle cx='450' cy='90' r='5'/%3E%3C/g%3E%3Crect x='30' y='30' width='150' height='10' rx='5' fill='%2337e0c0' opacity='.8'/%3E%3C/svg%3E" alt="动画MV《光年信箱》主视觉，紫色折线与橙色节点" width="480" height="270">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div>
+            <span class="ty-tag ty-tag--violet">动画</span><span class="ty-tag">独立制作</span>
+            <h3>《光年信箱》：手绘逐帧动画，一封寄往十年后的信</h3>
+            <p>由三位动画师耗时十一个月完成，全片 2,160 帧手绘。故事围绕一间会在深夜亮灯的老邮局展开，主角把未寄出的信投入投递口，画面随之过渡到星轨与城市天际线。作品在站内上线后连续三周进入新人榜前列。</p>
+            <div class="ty-data">
+              <span>作者：纸飞机动画组</span><span>播放 27.8 万</span><span>点赞 2.1 万</span><span>收藏 7,600</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>21,270</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-copy>复制链接</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-video-row">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23163046'/%3E%3Cg fill='%23eaf6fb' opacity='.55'%3E%3Crect x='60' y='50' width='120' height='170' rx='6'/%3E%3Crect x='210' y='80' width='100' height='140' rx='6' opacity='.7'/%3E%3Crect x='340' y='40' width='80' height='180' rx='6' opacity='.45'/%3E%3C/g%3E%3Cg fill='%2337e0c0'%3E%3Ccircle cx='120' cy='135' r='20'/%3E%3C/g%3E%3C/svg%3E" alt="城市影像MV《楼间风》主视觉，错落建筑与青色圆点" width="480" height="270">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div>
+            <span class="ty-tag">城市影像</span><span class="ty-tag ty-tag--amber">在地文化</span>
+            <h3>《楼间风》：在老居民区拍一支关于通勤与归家的 MV</h3>
+            <p>主角从清晨的公交站出发，穿过菜市场、天桥与旧楼连廊，最终在自家阳台停下。导演用大量固定机位记录城市肌理，画面中出现的晾衣绳、早餐摊与红砖墙均来自真实街景，为城市探索类内容提供了极具在地感的样本。</p>
+            <div class="ty-data">
+              <span>作者：老街机计划</span><span>播放 19.6 万</span><span>点赞 1.5 万</span><span>收藏 5,240</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>15,380</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-comment>查看评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-video-row">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23102233'/%3E%3Cg stroke='%23ff8a5c' stroke-width='3' fill='none' opacity='.8'%3E%3Ccircle cx='240' cy='135' r='80'/%3E%3Cpath d='M240 55v160M160 135h160'/%3E%3C/g%3E%3Cg fill='%2337e0c0'%3E%3Ccircle cx='240' cy='135' r='12'/%3E%3C/g%3E%3C/svg%3E" alt="音乐现场MV《声场边界》主视觉，暖橙十字圆环构图" width="480" height="270">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div>
+            <span class="ty-tag">音乐现场</span><span class="ty-tag ty-tag--violet">访谈</span>
+            <h3>《声场边界》：在一间旧仓库里重听三首老歌</h3>
+            <p>天娱MV团队把录音设备搬进城市边缘的旧仓库，邀请三位不同年代的歌手重唱各自代表作。影片穿插少量访谈，讨论录音介质变化对听感的影响，既是一次音乐现场记录，也是一段关于行业观察的真实影像。</p>
+            <div class="ty-data">
+              <span>作者：天娱MV制作组</span><span>播放 24.1 万</span><span>点赞 1.9 万</span><span>收藏 6,180</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>19,420</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-copy>复制链接</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-video-row">
+          <div class="ty-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23132a3c'/%3E%3Cg fill='%2337e0c0' opacity='.5'%3E%3Cpath d='M80 220 Q160 140 240 190 T400 150 L400 240 L80 240Z'/%3E%3C/g%3E%3Cg fill='%23ff8a5c'%3E%3Ccircle cx='150' cy='110' r='8'/%3E%3Ccircle cx='330' cy='90' r='6'/%3E%3C/g%3E%3Cg stroke='%23eaf6fb' stroke-width='2' opacity='.5' fill='none'%3E%3Cpath d='M100 60h100M100 80h60'/%3E%3C/g%3E%3C/svg%3E" alt="治愈影像MV《晚安信号》主视觉，柔和山形与暖色光点" width="480" height="270">
+            <span class="ty-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#eaf6fb"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div>
+            <span class="ty-tag">治愈影像</span><span class="ty-tag">日常记录</span>
+            <h3>《晚安信号》：用一支 MV 记录睡前的一小时</h3>
+            <p>作品把镜头对准普通人的夜晚：便利店的关东煮、出租车里的广播、书桌上未合上的本子。导演采用低照度自然光拍摄，配合极简的钢琴旋律，让日常记录具备可被共情的温度，适合在安静的夜里慢慢看完。</p>
+            <div class="ty-data">
+              <span>作者：晚安频道</span><span>播放 16.9 万</span><span>点赞 1.3 万</span><span>收藏 4,850</span>
+            </div>
+            <div class="ty-actions">
+              <button class="ty-mini-btn" type="button" data-ty-like><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-9.3A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.7C19 15.6 12 20 12 20z"/></svg><span data-ty-like-num>13,460</span></button>
+              <button class="ty-mini-btn" type="button" data-ty-fav><svg class="ty-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4z"/></svg>收藏</button>
+              <button class="ty-mini-btn" type="button" data-ty-comment>查看评论</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="ty-section" id="ty-topics">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Programs · 专题企划</span>
+        <h2 class="ty-h2">天娱MV<em>专题企划</em>：用主题串起音乐影像</h2>
+        <p class="ty-lead">每个专题由编辑团队策划方向、创作者提供作品，围绕一个具体命题持续更新。专题既是对内容生态的整理，也是乐迷发现同好与优质原创内容的入口。</p>
+      </div>
+
+      <div class="ty-topic-grid">
+        <article class="ty-card ty-topic">
+          <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%2312293c'/%3E%3Cg fill='none' stroke='%2337e0c0' stroke-width='2.5' opacity='.7'%3E%3Ccircle cx='240' cy='135' r='72'/%3E%3Ccircle cx='240' cy='135' r='42'/%3E%3C/g%3E%3Cpath d='M222 112l38 23-38 23z' fill='%2337e0c0'/%3E%3C/svg%3E" alt="专题企划「城市声场」封面，青色同心圆与播放符号" width="480" height="270"></div>
+          <div class="ty-topic-body">
+            <span class="ty-topic-status">更新中 · 第 4 期</span>
+            <h3>城市声场</h3>
+            <p class="ty-muted">把镜头放进城市的不同角落，记录音乐与空间的关系。从地下通道到屋顶天台，每期邀请一组音乐人完成一次实地录音。</p>
+            <ol>
+              <li>第 1 期：地铁末班车里的清唱</li>
+              <li>第 2 期：菜市场二楼的古筝课</li>
+              <li>第 3 期：旧电影院散场后的钢琴</li>
+            </ol>
+            <span class="ty-topic-more">共 12 支作品 · 持续更新</span>
+          </div>
+        </article>
+
+        <article class="ty-card ty-topic">
+          <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23182f42'/%3E%3Cg fill='%23ff8a5c' opacity='.72'%3E%3Crect x='60' y='150' width='40' height='70' rx='5'/%3E%3Crect x='120' y='120' width='40' height='100' rx='5'/%3E%3Crect x='180' y='165' width='40' height='55' rx='5'/%3E%3Crect x='240' y='95' width='40' height='125' rx='5'/%3E%3Crect x='300' y='135' width='40' height='85' rx='5'/%3E%3Crect x='360' y='70' width='40' height='150' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="专题企划「新人声量榜」封面，橙色柱状节拍图形" width="480" height="270"></div>
+          <div class="ty-topic-body">
+            <span class="ty-topic-status ty-topic-status--soft">季度企划</span>
+            <h3>新人声量计划</h3>
+            <p class="ty-muted">面向首次发布 MV 的创作者，提供首页展映位、拍摄指导与母带处理支持。以真实数据与编辑推荐共同决定入选名单。</p>
+            <ol>
+              <li>纸飞机动画组《光年信箱》</li>
+              <li>晚安频道《晚安信号》</li>
+              <li>南屿三重奏《午后四点》</li>
+            </ol>
+            <span class="ty-topic-more">本季已展映 9 支作品</span>
+          </div>
+        </article>
+
+        <article class="ty-card ty-topic">
+          <div class="ty-thumb"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%231b2338'/%3E%3Cg stroke='%238e7bff' stroke-width='2' fill='none' opacity='.7'%3E%3Cpath d='M40 210 Q140 60 240 150 T440 90'/%3E%3C/g%3E%3Cg fill='%23eaf6fb' opacity='.7'%3E%3Ccircle cx='140' cy='115' r='4'/%3E%3Ccircle cx='240' cy='150' r='4'/%3E%3Ccircle cx='340' cy='105' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="专题企划「幕后手记」封面，紫色曲线与人物动线" width="480" height="270"></div>
+          <div class="ty-topic-body">
+            <span class="ty-topic-status">长期企划</span>
+            <h3>幕后手记</h3>
+            <p class="ty-muted">从分镜、置景到后期调色，完整呈现一支 MV 的诞生过程。每期附带创作者自述与拍摄清单，方便同行参考与交流。</p>
+            <ol>
+              <li>《潮汐以北》的雾天拍摄方案</li>
+              <li>《楼间风》的固定机位选择</li>
+              <li>《光年信箱》的逐帧时间表</li>
+            </ol>
+            <span class="ty-topic-more">附 26 份创作手记</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="ty-section" id="ty-authors">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Creators · 创作者</span>
+        <h2 class="ty-h2">天娱MV<em>创作者矩阵</em>：持续运营的原创力量</h2>
+        <p class="ty-lead">来自不同城市与风格的创作者，在天娱MV社区持续发布作品、分享经验、参与专题。点击作者卡片可查看简介与代表作品。</p>
+      </div>
+
+      <div class="ty-author-grid">
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#37e0c0,#1a9f91)">叶</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">叶栖 Yeatsi <button class="ty-mini-btn" type="button" data-ty-author="叶栖">作者信息</button></div>
+            <p>独立音乐人、钢琴与合成器演奏者，擅长把城市夜间的环境声写进旋律。作品以现场录音为主，追求键盘与空气感之间的平衡。</p>
+            <div class="ty-author-stats"><span>领域：现场音乐</span><span>作品 46</span><span>粉丝 8.7 万</span></div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#ff8a5c,#d95d33)">潮</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">潮汐以北乐队 <button class="ty-mini-btn" type="button" data-ty-author="潮汐以北乐队">作者信息</button></div>
+            <p>成军六年的四人后摇乐队，坚持在真实场地完成影像拍摄。新专辑同名 MV 在海边连续拍摄三天，保留大量自然环境声与即兴段落。</p>
+            <div class="ty-author-stats"><span>领域：后摇 / 现场</span><span>作品 23</span><span>粉丝 6.2 万</span></div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#8e7bff,#5a48c9)">纸</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">纸飞机动画组 <button class="ty-mini-btn" type="button" data-ty-author="纸飞机动画组">作者信息</button></div>
+            <p>由三位动画师组成的独立小组，专注手绘逐帧与二维合成。团队习惯先写完整分镜再开始绘制，单支作品平均制作周期接近一年。</p>
+            <div class="ty-author-stats"><span>领域：动画 MV</span><span>作品 11</span><span>粉丝 5.4 万</span></div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#4fb8e0,#237a9e)">老</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">老街机计划 <button class="ty-mini-btn" type="button" data-ty-author="老街机计划">作者信息</button></div>
+            <p>城市影像创作团体，成员包括导演、摄影师与城市研究者。长期记录老居民区、市场与公共交通，作品强调在地文化与真实生活质感。</p>
+            <div class="ty-author-stats"><span>领域：城市影像</span><span>作品 38</span><span>粉丝 7.1 万</span></div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#e0c04f,#a8862a)">晚</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">晚安频道 <button class="ty-mini-btn" type="button" data-ty-author="晚安频道">作者信息</button></div>
+            <p>以日常记录为核心的影像账号，专注拍摄夜晚与通勤场景。运营者是一名兼职摄影师，习惯用低照度自然光捕捉普通人的日常状态。</p>
+            <div class="ty-author-stats"><span>领域：治愈影像</span><span>作品 64</span><span>粉丝 9.3 万</span></div>
+          </div>
+        </article>
+
+        <article class="ty-card ty-author">
+          <span class="ty-avatar" style="background:linear-gradient(140deg,#5fd08a,#2f8a56)">南</span>
+          <div class="ty-author-body">
+            <div class="ty-author-name">南屿三重奏 <button class="ty-mini-btn" type="button" data-ty-author="南屿三重奏">作者信息</button></div>
+            <p>钢琴、大提琴与手风琴的室内乐组合，长期在小型空间演出。作品多为原声录制，追求自然混响与乐器之间的呼吸留白。</p>
+            <div class="ty-author-stats"><span>领域：室内乐</span><span>作品 19</span><span>粉丝 4.8 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单与评价 -->
+  <section class="ty-section" id="ty-board">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Charts & Voices · 榜单与口碑</span>
+        <h2 class="ty-h2">天娱MV<em>数据榜单</em>与用户真实评价</h2>
+        <p class="ty-lead">榜单按播放、互动与收藏综合计算，每周更新；用户评价来自站内评论区与专题问卷，保留不同维度的真实声音。</p>
+      </div>
+
+      <div class="ty-board-grid" style="margin-bottom:22px">
+        <article class="ty-card ty-board">
+          <h3><span class="ty-tag ty-tag--amber">热度榜</span>本周播放与互动综合排名</h3>
+          <ol class="ty-rank">
+            <li><span class="rk rk--top">01</span><span class="rk-title">《天台录音棚》现场版 · 叶栖</span><span class="rk-num">42.6 万</span></li>
+            <li><span class="rk rk--top">02</span><span class="rk-title">《潮汐以北》叙事版 · 潮汐以北乐队</span><span class="rk-num">31.4 万</span></li>
+            <li><span class="rk">03</span><span class="rk-title">《光年信箱》手绘动画 · 纸飞机动画组</span><span class="rk-num">27.8 万</span></li>
+            <li><span class="rk">04</span><span class="rk-title">《声场边界》旧仓库现场 · 天娱MV制作组</span><span class="rk-num">24.1 万</span></li>
+            <li><span class="rk">05</span><span class="rk-title">《楼间风》城市影像 · 老街机计划</span><span class="rk-num">19.6 万</span></li>
+            <li><span class="rk">06</span><span class="rk-title">《晚安信号》治愈夜景 · 晚安频道</span><span class="rk-num">16.9 万</span></li>
+          </ol>
+        </article>
+
+        <article class="ty-card ty-board">
+          <h3><span class="ty-tag ty-tag--violet">新人榜</span>首次发布作品的新锐创作者</h3>
+          <ol class="ty-rank">
+            <li><span class="rk rk--top">01</span><span class="rk-title">纸飞机动画组 · 动画 MV</span><span class="rk-num">新人指数 9.6</span></li>
+            <li><span class="rk rk--top">02</span><span class="rk-title">晚安频道 · 日常记录</span><span class="rk-num">新人指数 9.2</span></li>
+            <li><span class="rk">03</span><span class="rk-title">南屿三重奏 · 室内乐现场</span><span class="rk-num">新人指数 8.9</span></li>
+            <li><span class="rk">04</span><span class="rk-title">七号胶片社 · 复古影像</span><span class="rk-num">新人指数 8.4</span></li>
+            <li><span class="rk">05</span><span class="rk-title">深水区合唱团 · 人声实验</span><span class="rk-num">新人指数 8.1</span></li>
+            <li><span class="rk">06</span><span class="rk-title">午后数据 · 电子节拍</span><span class="rk-num">新人指数 7.8</span></li>
+          </ol>
+        </article>
+      </div>
+
+      <div class="ty-review-grid">
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★★</span><b>林远</b><span>乐迷 · 观看 3 年</span></div>
+          <p>天娱MV最打动我的是画质稳定，老歌修复版也能看清颗粒和灯光细节，不是那种过度锐化的处理，看起来更像当年在电视上第一次看到的样子。</p>
+          <div class="ty-review-key"><span>口碑维度：画质与修复</span><span>2026-11-18</span></div>
+        </article>
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★☆</span><b>阿野</b><span>独立导演 · 投稿创作者</span></div>
+          <p>投稿流程比预想简单，上传后第二天就收到编辑反馈，讲得比较具体，包括分镜节奏和声音比例的问题。对独立创作者来说，这种专业反馈比曝光更重要。</p>
+          <div class="ty-review-key"><span>口碑维度：投稿体验</span><span>2026-11-15</span></div>
+        </article>
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★★</span><b>陈小满</b><span>学生 · 社区活跃用户</span></div>
+          <p>专题企划是我每周必看的栏目，城市声场那几期把音乐和空间讲得很清楚。评论区里经常有人补充拍摄地信息，氛围比较友好，没有太多无意义的争吵。</p>
+          <div class="ty-review-key"><span>口碑维度：社区氛围</span><span>2026-11-12</span></div>
+        </article>
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★☆</span><b>周姐</b><span>乐队经纪人</span></div>
+          <p>合作过两次首页首播，排期和物料确认都比较规范，合同里把授权范围写得很明白。唯一希望是移动端的收藏夹可以按专题分组，现在找旧作品要翻一阵。</p>
+          <div class="ty-review-key"><span>口碑维度：合作与产品</span><span>2026-11-09</span></div>
+        </article>
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★★</span><b>许一鸣</b><span>音频工程师</span></div>
+          <p>从专业角度看，天娱MV的立体声重制做得扎实，低频没有糊成一片，人声位置也稳。下载的音频规格标注清楚，做参考监听时很省事。</p>
+          <div class="ty-review-key"><span>口碑维度：音频品质</span><span>2026-11-06</span></div>
+        </article>
+        <article class="ty-card ty-review">
+          <div class="ty-review-head"><span class="ty-stars">★★★★☆</span><b>木木</b><span>新手创作者</span></div>
+          <p>刚上传第一支作品时有点紧张，没想到编辑给了首页新人展映。虽然播放不算高，但收到很多具体的建议，也认识了几位同城拍摄的朋友。</p>
+          <div class="ty-review-key"><span>口碑维度：成长与陪伴</span><span>2026-11-02</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌故事与关键词解析 -->
+  <section class="ty-section" id="ty-story">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Brand Story · 品牌故事</span>
+        <h2 class="ty-h2">天娱MV<em>品牌故事</em>与关键词深度解析</h2>
+        <p class="ty-lead">从一间小型剪辑室到持续运营的音乐影像平台，天娱MV始终围绕“原创、正版、高清”打磨内容与产品。以下内容从品牌历程、内容生态与使用方式三个层面展开。</p>
+      </div>
+
+      <div class="ty-story-grid">
+        <article class="ty-card ty-article">
+          <h3>起点：一间只有两台显示器的剪辑室</h3>
+          <p>2013 年，天娱MV的前身是一间位于居民楼里的剪辑工作室，团队只有四人。最早的工作是为独立乐队做低成本 MV 后期，片酬常常是一顿饭或几张演出票。<strong>但正是这些早期的合作，让团队理解了一支 MV 从想法到成片要经历多少妥协。</strong></p>
+          <p>2016 年，团队上线第一版天娱MV网站，只做了两件事：把合作过的作品整理成可检索的页面，以及为每支作品附上完整的创作信息。上线三个月后，第一批乐迷开始主动在站内留言、纠错、推荐作品，社区雏形由此形成。</p>
+          <p>此后数年，平台逐步建立正版授权流程、母带修复标准与多端高清播放链路。今天的<strong>天娱MV官方网站</strong>已是一个覆盖内容首发、专题策划、创作者服务与行业观察的综合门户，但最初“把好作品认真地放好”的原则没有改变。</p>
+          <blockquote class="ty-quote">“我们不急着做最多，先做最可靠的那一个。”——天娱MV创始成员在内部复盘会上的一句话，被贴在剪辑室的墙上很多年。</blockquote>
+        </article>
+
+        <article class="ty-card ty-deep">
+          <h3>一、关键词解析：天娱MV免费入意味着什么</h3>
+          <p>“天娱MV免费入”是许多乐迷搜索时使用的表达，核心诉求非常直接：希望在不增加额外成本的情况下，进入一个能够稳定观看高清音乐视频的入口。对天娱MV而言，这句话包含三个层面的承诺。第一是<strong>免费入站</strong>，即基础观看、检索、收藏与评论功能对普通用户开放，注册与非注册用户都能获得完整的内容浏览体验；第二是<strong>正版高清</strong>，所有上线作品均经过授权核验与画质处理，不依赖盗链或低码率转录；第三是<strong>持续可访问</strong>，平台以长期运营为目标维护曲库与页面，而不是短期聚合后放任链接失效。</p>
+          <p>要理解这一点，需要知道音乐视频与普通短视频的差别。MV 的观看体验高度依赖声音与画面的同步质量，一支作品如果码率不足，钢琴的泛音会变得干瘪，暗部场景会出现明显色块；如果音轨被二次压缩，人声与器乐的层次会挤在一起。天娱MV在内容入库时会对母带进行响度统一与必要修复，再按不同网络条件分发多档码率，确保从手机到桌面端都能获得相对稳定的高清体验。这也是平台把“高清”写进品牌关键词的原因——它不是宣传语，而是具体的技术流程。</p>
+
+          <h3>二、内容生态：从单支作品到可持续的社区</h3>
+          <p>单一作品可以靠一次传播获得关注，但内容生态需要更长的链条。天娱MV的内容生态由四部分构成：<strong>首发与展映</strong>负责让新作品被看见；<strong>专题企划</strong>把分散的作品组织成有观点的主题；<strong>创作者服务</strong>提供投稿、反馈与拍摄支持；<strong>社区互动</strong>则通过评论、收藏与专题问卷沉淀真实口碑。四者互为支撑，使一支 MV 在上线后的数周内仍能持续获得讨论，而不是在信息流里快速沉底。</p>
+          <p>以“城市声场”专题为例，编辑团队先确定命题与拍摄地点，再邀请音乐人参与，最终形成的不仅是几支视频，还包括拍摄手记、场地方访谈与观众补充的在地信息。这种组织方式让内容从“可看”变成“可读、可讨论”，也解释了为什么许多用户会把天娱MV当作查找音乐影像资料的工具，而不仅是播放器。对于希望了解某个城市音乐场景、某种拍摄手法或某类声音处理方式的用户，站内的专题目录与幕后手记往往比单条视频更有参考价值。</p>
+
+          <h3>三、创作者视角：投稿、反馈与成长路径</h3>
+          <p>对创作者而言，关键词里的“入”还有另一层含义——作品如何进入平台。天娱MV的投稿入口位于页头与页脚，支持视频文件、音频分轨与创作说明同时上传。审核团队会从授权清晰度、音画同步、字幕规范与内容完整性四个维度给出反馈，其中授权清晰度是硬性条件：翻唱、改编与采样作品需要提供相应证明，平台不接受来源不明的素材。</p>
+          <p>通过审核后，作品会进入新人展映或主题合集，表现稳定的创作者可申请参与专题企划。平台同时提供基础的数据面板，展示播放来源、完播率与收藏转化，帮助创作者判断作品在不同人群中的接受度。需要说明的是，天娱MV不承诺流量结果，也不参与刷量行为，榜单按真实互动计算，这既是<strong>用户至上</strong>的体现，也是社区能够长期保持可信度的前提。对刚起步的创作者，建议先完成一支完整作品，把声音与画面磨到自己的标准之上，再考虑传播，而不是反过来。</p>
+
+          <h3>四、使用方式：如何高效地找到想看的 MV</h3>
+          <p>日常使用中，最直接的方式是通过顶部搜索框输入歌手、作品名或专题关键词。搜索支持中文与英文混合输入，结果按相关度与更新时间排序。若只是想随便看看，可以从“焦点首播”进入本周推荐，或按“高清MV”列表浏览完整条目。对于研究型用户，建议使用榜单页的热度榜与新人榜交叉查看，再结合专题目录定位具体方向。</p>
+          <p>收藏与评论是提升使用效率的两种方式：收藏用于建立个人片单，评论则常常包含拍摄地、器材与版本信息，值得翻阅。移动端导航支持折叠展开，长页面浏览时可使用右下角回到顶部按钮快速返回。天娱MV也会定期发布更新日志，说明新增作品、功能调整与专题排期，帮助用户了解平台正在发生什么。无论是偶尔观看的乐迷，还是长期投入的创作者，都能在这个入口里找到适合自己的节奏。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 / 合作 / FAQ -->
+  <section class="ty-section" id="ty-updates">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Enterprise · 企业动态</span>
+        <h2 class="ty-h2">天娱MV<em>企业动态</em>、合作品牌与常见问题</h2>
+        <p class="ty-lead">平台持续运营中，以下为企业动态、长期合作伙伴与用户经常咨询的问题，便于快速了解天娱MV的官方信息。</p>
+      </div>
+
+      <div class="ty-grid" style="margin-bottom:24px">
+        <article class="ty-card ty-board">
+          <h3>品牌动态与更新日志</h3>
+          <ul class="ty-news">
+            <li><time datetime="2026-11-20">11-20</time><p>十一月“编曲现场”专题正式上线，新增 12 支高清正版 MV，含 3 支 4K 修复版本。</p></li>
+            <li><time datetime="2026-11-14">11-14</time><p>创作者投稿通道升级，支持音频分轨与拍摄说明一并上传，审核反馈周期缩短至 48 小时内。</p></li>
+            <li><time datetime="2026-11-08">11-08</time><p>天娱MV与四家独立厂牌完成年度内容合作签约，将共同推出城市录音室系列企划。</p></li>
+            <li><time datetime="2026-10-30">10-30</time><p>站内榜单算法更新，提高收藏与完播权重，降低短时播放量对排名的影响。</p></li>
+            <li><time datetime="2026-10-21">10-21</time><p>“幕后手记”新增 6 份拍摄清单，涵盖分镜、灯光与后期调色的完整流程说明。</p></li>
+          </ul>
+        </article>
+
+        <article class="ty-card ty-board">
+          <h3>合作品牌与伙伴</h3>
+          <div class="ty-partner-grid" style="grid-template-columns:1fr 1fr">
+            <div class="ty-partner"><b>潮声唱片</b><span>音乐版权合作</span></div>
+            <div class="ty-partner"><b>天台录音棚</b><span>现场内容共建</span></div>
+            <div class="ty-partner"><b>纸飞机动画</b><span>视觉制作支持</span></div>
+            <div class="ty-partner"><b>老街机影像</b><span>城市记录计划</span></div>
+            <div class="ty-partner"><b>南屿音乐空间</b><span>线下展映场地</span></div>
+            <div class="ty-partner"><b>光年母带工作室</b><span>音频修复支持</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="ty-faq" id="ty-faq">
+        <details open>
+          <summary>天娱MV免费入，是全部内容都能免费观看吗？</summary>
+          <p>基础观看、搜索、收藏与评论功能对普通用户开放，绝大多数原创 MV 可免费在线观看高清版本。少量特别企划专场与线下展映可能采取预约形式，但站内会明确标注，不会在观看过程中设置隐藏门槛。</p>
+        </details>
+        <details>
+          <summary>投稿需要具备哪些条件，审核大概多久？</summary>
+          <p>投稿需为原创或已获得完整授权的音乐影像作品，画面与声音无明显技术缺陷，字幕完整。提交时请附创作说明与授权说明，审核周期通常为 48 小时，节假日顺延。</p>
+        </details>
+        <details>
+          <summary>为什么同一支作品会有多个画质版本？</summary>
+          <p>为适应不同网络条件与设备，平台会提供多档码率。高码率版本保留更多暗部细节与声音层次，低码率版本加载更快，播放器会根据网络自动选择，也可手动切换。</p>
+        </details>
+        <details>
+          <summary>收藏和点赞的数据会被怎样使用？</summary>
+          <p>收藏与点赞参与榜单计算和专题推荐，帮助编辑判断内容质量。平台不会将用户个人数据用于站外商业用途，具体规则以站内公示为准。</p>
+        </details>
+        <details>
+          <summary>可以在站内下载视频或音频吗？</summary>
+          <p>部分标注“可下载”的官方发布内容提供高清视频或音频文件下载，下载前需确认使用范围。未标注的内容仅支持在线观看，请勿通过非官方方式获取。</p>
+        </details>
+        <details>
+          <summary>想参与专题企划或比赛，应该从哪里报名？</summary>
+          <p>专题企划与比赛通常在首页焦点区和更新日志中发布报名入口。创作者也可通过投稿入口留言说明希望参与的方向，编辑团队会根据作品情况联系。</p>
+        </details>
+        <details>
+          <summary>如何反馈内容错误或侵权问题？</summary>
+          <p>每支作品页均提供反馈入口，可选择“信息纠错”或“侵权投诉”并填写具体说明。涉及版权的问题会优先处理，核实后平台将及时下架或修正相关内容。</p>
+        </details>
+        <details>
+          <summary>天娱MV是否接受商业合作与品牌定制内容？</summary>
+          <p>接受。品牌可围绕音乐影像、现场记录与专题共建展开合作。平台会明确标注商业内容属性，并在制作标准与审核流程上与常规作品保持一致。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系与投稿 -->
+  <section class="ty-section" id="ty-contact">
+    <div class="ty-wrap">
+      <div class="ty-section-head">
+        <span class="ty-eyebrow">Contact · 联系与投稿</span>
+        <h2 class="ty-h2">与天娱MV<em>官方团队</em>取得联系</h2>
+        <p class="ty-lead">无论你是创作者、版权方还是乐迷，都可以通过以下方式与天娱MV官方网站取得联系。我们会在工作日内回复具体问题。</p>
+      </div>
+
+      <div class="ty-contact-grid">
+        <article class="ty-card ty-contact">
+          <h3 class="ty-h3">官方联系方式</h3>
+          <p>内容合作与授权咨询：官方渠道提交后在两个工作日内回复。</p>
+          <p>投稿咨询与作品反馈：请附作品链接、创作说明与授权材料，便于快速处理。</p>
+          <p>媒体与品牌合作：请说明合作方向、排期与预算范围，我们会提供对应的内容方案。</p>
+          <div class="ty-actions">
+            <button class="ty-btn ty-btn-primary" type="button" data-ty-open="ty-modal-upload">提交投稿</button>
+            <button class="ty-btn ty-btn-ghost" type="button" data-ty-copy>复制本站链接</button>
+            <button class="ty-btn ty-btn-ghost" type="button" data-ty-open="ty-modal-share">分享给朋友</button>
+          </div>
+        </article>
+
+        <article class="ty-card ty-contact">
+          <h3 class="ty-h3">快速留言</h3>
+          <p>填写基本信息后提交，编辑团队会根据内容分类转交对应负责人。</p>
+          <form class="ty-form" id="ty-contact-form" novalidate>
+            <label class="ty-skip" for="ty-c-name">称呼</label>
+            <input id="ty-c-name" name="name" type="text" placeholder="怎么称呼你" required>
+            <label class="ty-skip" for="ty-c-msg">留言内容</label>
+            <textarea id="ty-c-msg" name="msg" placeholder="想咨询的方向、作品链接或合作诉求" required></textarea>
+            <button class="ty-btn ty-btn-amber" type="submit">提交留言</button>
+          </form>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ty-footer">
+  <div class="ty-footer-in">
+    <div class="ty-footer-top">
+      <div class="ty-footer-brand">
+        <div class="ty-footer-mark">
+          <span class="ty-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="20" fill="none" stroke="#37e0c0" stroke-width="3.5"/><path d="M27 22l18 10-18 10z" fill="#ff8a5c"/></svg>
+          </span>
+          <b>天娱MV</b>
+        </div>
+        <p>天娱MV官方网站，专注高清原创音乐视频与创作者社区。平台坚持正版授权、用户至上，以持续运营的内容生态服务乐迷、音乐人与合作品牌。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#ty-focus">焦点首播</a></li>
+          <li><a href="#ty-videos">高清MV</a></li>
+          <li><a href="#ty-topics">专题企划</a></li>
+          <li><a href="#ty-authors">创作者</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于平台</h4>
+        <ul>
+          <li><a href="#ty-story">品牌故事</a></li>
+          <li><a href="#ty-updates">企业动态</a></li>
+          <li><a href="#ty-board">榜单与口碑</a></li>
+          <li><a href="#ty-faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与共建</h4>
+        <ul>
+          <li><a href="#ty-contact">联系与投稿</a></li>
+          <li><a href="#ty-contact">品牌合作</a></li>
+          <li><a href="#ty-updates">更新日志</a></li>
+          <li><a href="#ty-hero">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ty-footer-bottom">
+      <span>天娱MV官方网站 | 版权所有 © 2013–2026 天娱MV | 持续运营中</span>
+      <div class="ty-legal">
+        <span>正版授权</span>
+        <span>高清内容</span>
+        <span>备案号：示例备案信息</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="ty-top" type="button" id="ty-back-top" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<div class="ty-toast" id="ty-toast" role="status" aria-live="polite"></div>
+
+<div class="ty-modal" id="ty-modal-upload" role="dialog" aria-modal="true" aria-labelledby="ty-upload-title">
+  <div class="ty-modal-card">
+    <button class="ty-modal-close" type="button" data-ty-close aria-label="关闭">×</button>
+    <h3 id="ty-upload-title">天娱MV 投稿入口</h3>
+    <p>欢迎向天娱MV官方网站提交原创音乐影像作品。请确认作品拥有完整版权或已获得授权，并准备好作品文件、创作说明与授权材料。</p>
+    <p>投稿方向包括：现场音乐、叙事 MV、动画影像、城市记录与实验短片。审核团队会在 48 小时内给出反馈，节假日顺延。</p>
+    <div class="ty-modal-actions">
+      <button class="ty-btn ty-btn-primary" type="button" data-ty-toast="投稿表单已打开，请按页面提示填写">继续投稿</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-close>稍后再说</button>
+    </div>
+  </div>
+</div>
+
+<div class="ty-modal" id="ty-modal-share" role="dialog" aria-modal="true" aria-labelledby="ty-share-title">
+  <div class="ty-modal-card">
+    <button class="ty-modal-close" type="button" data-ty-close aria-label="关闭">×</button>
+    <h3 id="ty-share-title">分享天娱MV</h3>
+    <p>把感兴趣的作品或专题分享给同好，一起讨论画面与声音的细节。</p>
+    <div class="ty-modal-actions">
+      <button class="ty-btn ty-btn-primary" type="button" data-ty-copy>复制链接</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-toast="已生成微信分享提示">微信</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-toast="已生成微博分享提示">微博</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-toast="已生成 QQ 分享提示">QQ</button>
+    </div>
+  </div>
+</div>
+
+<div class="ty-modal" id="ty-modal-report" role="dialog" aria-modal="true" aria-labelledby="ty-report-title">
+  <div class="ty-modal-card">
+    <button class="ty-modal-close" type="button" data-ty-close aria-label="关闭">×</button>
+    <h3 id="ty-report-title">反馈与举报</h3>
+    <p>如果你发现内容信息有误、画质异常或存在版权问题，请留下具体说明，天娱MV编辑部会尽快核查。</p>
+    <form class="ty-form" id="ty-report-form">
+      <label class="ty-skip" for="ty-report-text">反馈内容</label>
+      <textarea id="ty-report-text" placeholder="请描述问题所在的作品与具体情况" required></textarea>
+      <button class="ty-btn ty-btn-amber" type="submit">提交反馈</button>
+    </form>
+  </div>
+</div>
+
+<div class="ty-modal" id="ty-modal-author" role="dialog" aria-modal="true" aria-labelledby="ty-author-title">
+  <div class="ty-modal-card">
+    <button class="ty-modal-close" type="button" data-ty-close aria-label="关闭">×</button>
+    <h3 id="ty-author-title">创作者信息</h3>
+    <p id="ty-author-body">正在加载创作者资料…</p>
+    <div class="ty-modal-actions">
+      <button class="ty-btn ty-btn-primary" type="button" data-ty-close>继续浏览</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-copy>复制作者主页</button>
+    </div>
+  </div>
+</div>
+
+<div class="ty-modal" id="ty-modal-comment" role="dialog" aria-modal="true" aria-labelledby="ty-comment-title">
+  <div class="ty-modal-card">
+    <button class="ty-modal-close" type="button" data-ty-close aria-label="关闭">×</button>
+    <h3 id="ty-comment-title">作品评论</h3>
+    <p>「画面里的风声录得很干净，钢琴进来的时候整个人安静下来。希望以后能看到拍摄手记。」——乐迷 小阮</p>
+    <p>「低音铺底的位置处理得克制，没有抢掉人声。整支作品完成度很高。」——乐迷 阿北</p>
+    <p>「已经收藏，准备周末戴耳机再看一遍。」——乐迷 木子</p>
+    <div class="ty-modal-actions">
+      <button class="ty-btn ty-btn-primary" type="button" data-ty-toast="评论功能已展开，可继续浏览">发表评论</button>
+      <button class="ty-btn ty-btn-ghost" type="button" data-ty-close>关闭</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById('ty-burger');
+  var mobileNav = document.getElementById('ty-mobile-nav');
+  if (burger && mobileNav) {
+    burger.addEventListener('click', function(){
+      var open = mobileNav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? '收起导航' : '展开导航');
+    });
+    mobileNav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A') {
+        mobileNav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.setAttribute('aria-label','展开导航');
+      }
+    });
+  }
+
+  /* Toast */
+  var toastEl = document.getElementById('ty-toast');
+  var toastTimer = null;
+  function showToast(msg){
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2400);
+  }
+
+  /* 搜索提示 */
+  var searchInput = document.getElementById('ty-search-input');
+  var searchTip = document.getElementById('ty-search-tip');
+  var searchBtn = document.getElementById('ty-search-btn');
+  var suggestionPool = [
+    '天台录音棚 现场版',
+    '潮汐以北 乐队',
+    '光年信箱 动画 MV',
+    '城市声场 专题',
+    '声场边界 旧仓库',
+    '晚安信号 治愈影像',
+    '纸飞机动画组',
+    '幕后手记 创作'
+  ];
+  function runSearch(){
+    if (!searchInput || !searchTip) return;
+    var q = searchInput.value.trim();
+    if (!q) {
+      searchTip.innerHTML = '<strong>热门检索：</strong>' + suggestionPool.slice(0,3).join(' · ');
+      searchTip.classList.add('is-on');
+      return;
+    }
+    var matched = suggestionPool.filter(function(item){
+      return item.indexOf(q) !== -1 || q.indexOf(item.slice(0,2)) !== -1;
+    });
+    if (matched.length) {
+      searchTip.innerHTML = '<strong>找到 ' + matched.length + ' 条相关方向：</strong>' + matched.slice(0,4).join(' · ');
+      showToast('已为你匹配到相关内容方向');
+    } else {
+      searchTip.innerHTML = '<strong>暂未找到“' + q.replace(/[<>&]/g,'') + '”的直接匹配。</strong>可尝试“现场”“动画”或“城市声场”。';
+    }
+    searchTip.classList.add('is-on');
+  }
+  if (searchInput) {
+    searchInput.addEventListener('input', function(){
+      if (searchInput.value.trim().length >= 1) runSearch();
+    });
+    searchInput.addEventListener('keydown', function(e){
+      if (e.key === 'Enter') { e.preventDefault(); runSearch(); }
+    });
+  }
+  if (searchBtn) searchBtn.addEventListener('click', runSearch);
+  document.addEventListener('click', function(e){
+    if (searchTip && !e.target.closest('.ty-search')) {
+      searchTip.classList.remove('is-on');
+    }
+  });
+
+  /* 点赞 */
+  document.querySelectorAll('[data-ty-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var numEl = btn.querySelector('[data-ty-like-num]');
+      var raw = numEl ? numEl.textContent.replace(/,/g,'') : '0';
+      var n = parseInt(raw, 10) || 0;
+      if (btn.classList.toggle('is-active')) {
+        n += 1;
+        showToast('已点赞，感谢支持原创内容');
+      } else {
+        n = Math.max(0, n - 1);
+      }
+      if (numEl) numEl.textContent = n.toLocaleString('en-US');
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll('[data-ty-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-active');
+      var label = btn.childNodes[btn.childNodes.length - 1];
+      if (label && label.nodeType === 3) {
+        label.textContent = on ? '已收藏' : '收藏';
+      }
+      showToast(on ? '已收藏到个人片单' : '已取消收藏');
+    });
+  });
+
+  /* 复制链接 */
+  function copyLink(){
+    var text = '天娱MV 官方网站 · 高清原创音乐视频社区';
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function(){
+        showToast('链接已复制，可分享给同好');
+      }).catch(function(){
+        showToast('复制成功：' + text.slice(0,12) + '…');
+      });
+    } else {
+      showToast('复制成功：' + text.slice(0,12) + '…');
+    }
+  }
+  document.querySelectorAll('[data-ty-copy]').forEach(function(btn){
+    btn.addEventListener('click', copyLink);
+  });
+
+  /* 弹窗 */
+  var lastFocus = null;
+  function openModal(id){
+    var m = document.getElementById(id);
+    if (!m) return;
+    lastFocus = document.activeElement;
+    m.classList.add('is-on');
+    var closeBtn = m.querySelector('.ty-modal-close');
+    if (closeBtn) closeBtn.focus();
+  }
+  function closeModal(m){
+    if (!m) return;
+    m.classList.remove('is-on');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.querySelectorAll('[data-ty-open]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal(btn.getAttribute('data-ty-open'));
+    });
+  });
+  document.querySelectorAll('.ty-modal').forEach(function(m){
+    m.addEventListener('click', function(e){
+      if (e.target === m) closeModal(m);
+    });
+    m.querySelectorAll('[data-ty-close]').forEach(function(c){
+      c.addEventListener('click', function(){ closeModal(m); });
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.ty-modal.is-on').forEach(closeModal);
+    }
+  });
+
+  /* 评论弹窗 */
+  document.querySelectorAll('[data-ty-comment]').forEach(function(btn){
+    btn.addEventListener('click', function(){ openModal('ty-modal-comment'); });
+  });
+
+  /* 自定义 toast 按钮 */
+  document.querySelectorAll('[data-ty-toast]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      showToast(btn.getAttribute('data-ty-toast'));
+    });
+  });
+
+  /* 作者信息 */
+  var authorInfo = {
+    '叶栖': '叶栖，独立音乐人，演奏钢琴与合成器。2019 年起在天娱MV发布现场录音作品，以夜间城市为长期主题。代表作品《天台录音棚》《雨停之前》。',
+    '潮汐以北乐队': '潮汐以北乐队成军于 2020 年，四人编制，风格以后摇与器乐摇滚为主。坚持在真实场地完成影像拍摄，代表作品《潮汐以北》《雾中航线》。',
+    '纸飞机动画组': '纸飞机动画组由三位动画师组成，专注手绘逐帧与二维合成。作品节奏偏慢，强调画面中的留白与光影变化，代表作品《光年信箱》。',
+    '老街机计划': '老街机计划是一个城市影像创作团体，成员包括导演、摄影师与城市研究者。长期记录老居民区与公共交通，代表作品《楼间风》。',
+    '晚安频道': '晚安频道以日常记录为核心，专注拍摄夜晚与通勤场景。运营者是一名兼职摄影师，习惯使用低照度自然光，代表作品《晚安信号》。',
+    '南屿三重奏': '南屿三重奏由钢琴、大提琴与手风琴组成，长期在小型空间演出。作品多为原声录制，追求自然混响与乐器之间的呼吸留白。'
+  };
+  document.querySelectorAll('[data-ty-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-ty-author');
+      var body = document.getElementById('ty-author-body');
+      var title = document.getElementById('ty-author-title');
+      if (body) body.textContent = authorInfo[name] || '这位创作者暂时没有更多公开资料。';
+      if (title) title.textContent = name + ' · 创作者信息';
+      openModal('ty-modal-author');
+    });
+  });
+
+  /* 留言表单 */
+  var contactForm = document.getElementById('ty-contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = document.getElementById('ty-c-name');
+      var msg = document.getElementById('ty-c-msg');
+      if (!name.value.trim() || !msg.value.trim()) {
+        showToast('请填写称呼与留言内容');
+        return;
+      }
+      showToast('留言已提交，天娱MV编辑团队会尽快回复');
+      contactForm.reset();
+    });
+  }
+
+  /* 反馈表单 */
+  var reportForm = document.getElementById('ty-report-form');
+  if (reportForm) {
+    reportForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var text = document.getElementById('ty-report-text');
+      if (!text.value.trim()) {
+        showToast('请填写具体反馈内容');
+        return;
+      }
+      showToast('反馈已收到，核实后会及时处理');
+      reportForm.reset();
+      var m = document.getElementById('ty-modal-report');
+      if (m) closeModal(m);
+    });
+  }
+
+  /* 回到顶部 */
+  var backTop = document.getElementById('ty-back-top');
+  if (backTop) {
+    var onScroll = function(){
+      if (window.scrollY > 520) backTop.classList.add('is-on');
+      else backTop.classList.remove('is-on');
+    };
+    window.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+    backTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* 数字滚动 */
+  var counters = document.querySelectorAll('[data-ty-count]');
+  var counted = false;
+  function animateCounters(){
+    if (counted) return;
+    counted = true;
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-ty-count'), 10) || 0;
+      var start = 0;
+      var dur = 900;
+      var t0 = null;
+      function step(ts){
+        if (!t0) t0 = ts;
+        var p = Math.min(1, (ts - t0) / dur);
+        var val = Math.floor(start + (target - start) * (1 - Math.pow(1 - p, 3)));
+        el.textContent = val.toLocaleString('en-US');
+        if (p < 1) requestAnimationFrame(step);
+        else el.textContent = target.toLocaleString('en-US');
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if ('IntersectionObserver' in window && counters.length) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting) {
+          animateCounters();
+          io.disconnect();
+        }
+      });
+    }, {threshold:0.35});
+    var statHost = document.querySelector('.ty-hero-stats');
+    if (statHost) io.observe(statHost);
+  } else {
+    animateCounters();
+  }
+})();
+</script>
+</body>
+                                        </html>
